@@ -1,0 +1,47 @@
+body {
+    font-family: "arial", sans-serif;
+    text-align: center;	
+	
+}
+#txt-png {
+    font-family: "arial", sans-serif;
+	font-size: 30px;
+	font-style:bold;
+	margin:5px;
+	
+}
+#slider {    
+    margin:10px;    
+	
+}
+#slider {    
+    justify-content:center;
+	display: flex;	    
+	
+}
+
+#precedent,
+#suivant {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    font-size: 100px;
+    color: rgba(220, 220, 220, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
+    /*padding: 10px;*/
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#precedent {
+    left: 0;
+}
+
+#suivant {
+    right: 0;
+}
+
+#slider:hover #precedent,
+#slider:hover #suivant {
+    opacity: 1;
+}
